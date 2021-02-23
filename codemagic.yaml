@@ -8,11 +8,11 @@ workflows:
      - sudo npm install -g cordova
      - npm install
      - cordova platform add android
-      - PATH=$PATH:$GRADLE_PATH cordova build android
-  publishing:
-    email:
-      recipients:
-        - chuijiyang1999@gmail.com
-      notify:
-        success: true
-        false: true
+     - PATH=$PATH:$GRADLE_PATH cordova build android
+publishing:
+  email:
+    recipients:
+      - chuijiyang1999@gmail.com
+    notify:
+      success: true
+      false: true
