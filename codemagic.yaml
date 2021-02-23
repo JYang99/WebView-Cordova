@@ -3,7 +3,7 @@ workflows:
     name: Apache Cordova
     environment:
       vars:
-        GRADLE_PATH: /_Release
+        GRADLE_PATH: /Users/builder/programs/gradle-5.6.4/bin
     scripts:
      - sudo npm install -g cordova
      - npm install
