@@ -13,6 +13,3 @@ workflows:
       email:
         recipients:
           - chuijiyang1999@gmail.com
-        notify:
-          success: true
-          false: true
